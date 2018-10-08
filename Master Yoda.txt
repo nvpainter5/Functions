@@ -1,0 +1,7 @@
+def master_yoda(text):
+    s=text.split()
+    x=s[0]
+    y=s[1]
+    z=s[2]
+    f=" ".join([z,y,x])
+    return f
