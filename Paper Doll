@@ -1,0 +1,5 @@
+def paper_doll(text):
+    s=''
+    for x in text:
+        s+= x*3
+    return s
