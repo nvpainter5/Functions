@@ -1,0 +1,5 @@
+def animal_crackers(text):
+    s=text.split()
+    x=s[0]
+    y=s[1]
+    return x[0].lower()==y[0].lower()
