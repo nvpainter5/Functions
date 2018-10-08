@@ -1,0 +1,14 @@
+def count_primes(num):
+    if num<2:
+        return 0
+    x=[2]
+    y=3
+    while y<=num:
+        for a in range(3,y,2):
+            if y%a==0:
+                y+=2
+                break
+        else:
+            x.append(y)
+            y+=2
+    return len(x)
